@@ -19,4 +19,7 @@ Depends on:
 Backend server implementing prototype of loyalty system.
 
 Modules:
-- [ApiClient]
+- [ApiClient](Loyalty/ApiClient) - API client implementetion for Loyalty backend server
+- [ApiServer](Loyalty/ApiServer) - API server implementetion
+- [DataModel](Loyalty/DataModel) - API/DB data model
+- [SolanaGateway](Loyalty/SolanaGateway) - Gateway to Solana for using (program)[https://github.com/uno-labs-solana-hackathon/loyalty-vm-contract]
